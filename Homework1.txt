@@ -1,6 +1,26 @@
-00001010
-0110110100
-010000000000
-11110011
-10000000001
-110000000000
+Problem 2:
+
+a) 00001010
+b) 0110110100
+c) 010000000000
+d) 11110011
+e) 10000000001
+f) 110000000000
+
+
+
+Problem 3:
+
+n f(n)
+1 4
+2 16
+3 256
+4 65536
+5 4294967296
+6 18446744073709551616
+
+a) n=2: since the 8 bit range is -127 to 128, and n=2 is 16 while n=3 is 256
+b) n=3: the largest positive 16 bit int is above 30000, so the long int can
+hold 256 but not 65536
+c) n=3: the largest positive unsigned 16 bit int is 66535, so the unsigned long
+int can also only go up to n=3
